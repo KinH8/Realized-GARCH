@@ -5,7 +5,7 @@ In an extension to our initial HAR-RV model, we include a Realized GARCH model (
 
 ![image](https://user-images.githubusercontent.com/105033135/185288641-0c40cb56-e31f-4948-90bb-ecc0e6bf3df9.png)
 
-Using the same dataset as before, the FBMKLCI Bursa Malaysia index futures, our empirical analysis shows a weaker performance for GARCH-x vs. HAR and the conventional GARCH. We do not rule out modelling errors as the arch_model library used may be ill adapted for the Realized GARCH model (unlike R's rugarch package). 
+Using the same dataset as before (i.e. the FBMKLCI Bursa Malaysia index futures), our empirical analysis shows a weaker performance for GARCH-x vs. HAR and the conventional GARCH. We do not rule out modelling errors as the arch_model library used may be ill adapted for the Realized GARCH model (unlike R's rugarch package). 
 
 ![image](https://user-images.githubusercontent.com/105033135/185289116-970603a3-6b00-48a5-a002-86cb2fb85bf5.png)
 
